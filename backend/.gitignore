@@ -1,0 +1,46 @@
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### IDEs ###
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# STS/Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### System ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Spring Boot ###
+# Excluir configuraciones sensibles
+/src/main/resources/application*.properties
+/src/main/resources/application*.yml
+!src/main/resources/application.properties.example  # Ejemplo permitido
+
+# Excluir archivos de perfil específicos
+**/application-*.properties
+**/application-*.yml/src/main/resources/application.properties
+/src/main/resources/application-*.properties
