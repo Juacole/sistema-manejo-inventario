@@ -1,0 +1,39 @@
+# Angular
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/.angular/cache
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.idea/
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs y coverage
+/logs
+*.log
+/coverage
+
+# System
+.DS_Store
+Thumbs.db
+
+# Misc
+.sass-cache/
+/connect.lock
+/testem.log.vscode/

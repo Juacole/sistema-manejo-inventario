@@ -1,0 +1,13 @@
+<nav class="bg-blue-600 py-2 relative shadow-lg">
+    <div class="flex justify-between space-x-4 px-3">
+        <a routerLink="productos" class="px-3 text-1xl font-semibold tracking-wide">Sistema de Inventario</a>
+        <div class="flex space-x-4">
+            <a routerLink="productos" routerLinkActive="active" class="font-semibold">Inicio</a>
+            <a routerLink="agregar-producto" routerLinkActive="active" class="font-semibold">Agregar Producto</a>
+        </div>
+    </div>
+</nav>
+<!--<app-producto-lista></app-producto-lista>-->
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

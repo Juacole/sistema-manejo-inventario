@@ -1,0 +1,28 @@
+<div class="max-w-md mx-auto mt-8 bg-white p-6 rounded-lg shadow-md">
+    <h3 class="text-xl font-bold mb-6 text-center">Agregar Producto</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="mb-4">
+            <label for="descripcion" class="block text-gray-700 font-semibold mb-2">Descripción:</label>
+            <input type="text" id="descripcion" name="descripcion" required [(ngModel)]="producto.descripcion"
+                class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+        <div class="mb-4">
+            <label for="precio" class="block text-gray-700 font-semibold mb-2">Precio:</label>
+            <input type="number" id="precio" name="precio" required [(ngModel)]="producto.precio" class=" w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2
+                focus:ring-blue-400" />
+        </div>
+        <div class="mb-6">
+            <label for="existencias" class="block text-gray-700 font-semibold mb-2">Existencias:</label>
+            <input type="number" id="existencias" name="existencias" required [(ngModel)]="producto.existencias"
+                class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+        <button type="submit"
+            class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors">
+            Agregar
+        </button>
+        <a href="/"
+            class="block mt-4 w-full text-center bg-red-600 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition-colors">
+            Volver al inicio
+        </a>
+    </form>
+</div>
