@@ -44,13 +44,6 @@ Asegúrate de tener **Java** instalado y tu gestor de base de datos local config
 ```bash
 cd backend
 ```
-### 1. Levantar el Backend (Spring Boot)
-
-Asegúrate de tener **Java** instalado y tu gestor de base de datos local configurado (según los parámetros de tu `application.properties`). Abre una terminal y navega a la carpeta del backend:
-
-```bash
-cd backend
-```
 
 **En Windows:**
 ```bash
